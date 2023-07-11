@@ -5,7 +5,7 @@
 }
 
 span {
-    color: rgb(248, 34, 69);
+    color: #e84b6d;
 }
 
 .btn-primary {
@@ -17,6 +17,9 @@ span {
 }
 .btn-primary:hover{
     background-color: #fb2452;
+}
+.cart:hover{
+    width: 33px;
 }
 
 /* header section */
@@ -116,6 +119,64 @@ header {
 .flower-title {
     text-align: center;
 }
+.flower-title:hover{
+    color:#E55473
+}
+/* bestseller section */
+.best-flower1{
+    width: 200px;
+    border: 0;
+    border-radius: 10px 10px 0 0;
+}
+.best-flower2{
+    width: 200px;
+    height: 250px;
+    border: 0;
+    border-radius: 10px 10px 0 0;
+}
+.best-flower3{
+    width: 200px;
+    height: 250px;
+    border: 0;
+    border-radius: 10px 10px 0 0;
+}
+.best-flower4{
+    width: 200px;
+    height: 250px;
+    border: 0;
+    border-radius: 10px 10px 0 0;
+}
+.cart{
+    width: 30px;
+}
+.price-bar{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    align-items: center;
+}
+.bestseller{
+    display: flex;
+    margin-left: 300px;
+    gap: 30px;
+    height: 60vh;
+    padding-top: 40px;
+}
+.bestseller-content{
+    border: 0;
+    width: 200px;
+    height:340px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgb(181, 181, 181);
+}
+.price{
+    color: rgb(117, 116, 116);
+    font-weight: 300;
+    padding-top: 5px;
+}
+.bar-title{
+    font-size: 15px;
+}
 
 /* deals section */
 .deal-container {
@@ -155,10 +216,12 @@ header {
     margin: 60px 0;
     width: 200px;
 }
-
+.instaflower:hover{
+    box-shadow: 5px 5px 20px #ff7996;
+}
 /* subscribe section */
 .subscribe {
-    background-image: url('/Flower Asset/Rectangle\ 9.png');
+    background-image: url('./Flower Asset/Rectangle\ 9.png');
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 20px 300px 80px 300px;
