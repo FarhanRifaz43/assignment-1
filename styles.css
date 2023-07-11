@@ -45,6 +45,7 @@ header {
     width: 550px;
     height: 715px;
     padding-top: 50px;
+    padding-bottom: 0px;
 }
 
 /* main section */
@@ -62,6 +63,7 @@ header {
 .featured-title {
     text-align: center;
     padding: 50px 0 30px 0;
+    font-size: 30px;
 }
 
 .featured-desc {
@@ -106,4 +108,35 @@ header {
 
 .flower-title {
     text-align: center;
+}
+.deal-container{
+    display: flex;
+    background-color:  rgba(229, 84, 115, 0.10);
+    height: 80vh;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 90px;
+}
+.deal-txt{
+    max-width: 400px;
+    text-align: center;
+}
+.deal-title{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.deal-desc{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 13px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.instagram-flowers{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 290px;
+}
+.instaflower{
+    margin: 60px 0;
+    width: 200px;
 }
