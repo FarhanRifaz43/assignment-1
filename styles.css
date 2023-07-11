@@ -15,6 +15,9 @@ span {
     color: white;
     border-radius: 5px;
 }
+.btn-primary:hover{
+    background-color: #fb2452;
+}
 
 /* header section */
 header {
@@ -49,9 +52,10 @@ header {
 }
 
 /* main section */
-.featured{
+.featured {
     height: 100vh;
 }
+
 .featured-flowers {
     display: flex;
     align-items: center;
@@ -93,15 +97,18 @@ header {
     width: 314px;
     height: 408px;
 }
-.flower1{
+
+.flower1 {
     height: 360px;
     padding: 48px 0px 20px 30px;
 }
-.flower2{
+
+.flower2 {
     height: 310px;
     padding: 78px 30px 40px 20px;
 }
-.flower3{
+
+.flower3 {
     height: 360px;
     padding: 48px 0px 20px 30px;
 }
@@ -109,59 +116,70 @@ header {
 .flower-title {
     text-align: center;
 }
+
 /* deals section */
-.deal-container{
+.deal-container {
     display: flex;
-    background-color:  rgba(229, 84, 115, 0.10);
+    background-color: rgba(229, 84, 115, 0.10);
     height: 80vh;
     align-items: center;
     justify-content: space-around;
     padding: 0px 90px;
 }
-.deal-txt{
+
+.deal-txt {
     max-width: 400px;
     text-align: center;
 }
-.deal-title{
+
+.deal-title {
     font-size: 25px;
     padding-bottom: 20px;
 }
-.deal-desc{
+
+.deal-desc {
     color: rgba(39, 39, 39, 0.60);
     font-size: 13px;
     font-weight: 300;
     padding-bottom: 20px;
 }
+
 /* instagram section */
-.instagram-flowers{
+.instagram-flowers {
     display: flex;
     justify-content: space-around;
     padding: 0 290px;
 }
-.instaflower{
+
+.instaflower {
     margin: 60px 0;
     width: 200px;
 }
-.subscribe{
+
+/* subscribe section */
+.subscribe {
     background-image: url('/Flower Asset/Rectangle\ 9.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    margin: 20px 300px 80px 300px ;
+    margin: 20px 300px 80px 300px;
     height: 200px;
     text-align: center;
     padding-top: 80px;
 }
-.subs-title{
+
+.subs-title {
     font-size: 25px;
     padding-bottom: 10px;
 }
-.subs-desc{
+
+.subs-desc {
     color: rgba(39, 39, 39, 0.60);
     font-size: 13px;
     font-weight: 300;
     padding-bottom: 30px;
 }
-.subs-email{
+
+.subs-email {
     border: 0;
     border-radius: 5px;
     height: 35px;
@@ -170,4 +188,28 @@ header {
     color: rgba(39, 39, 39, 0.60);
     font-size: 12px;
     font-weight: 100;
+}
+/* footer section */
+footer{
+    background-color: #111010;
+    text-align: center;
+    height: 50vh;
+}
+.footer-title{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 130px;
+}
+.footer-desc{
+    color: rgba(185, 185, 185, 0.9);
+    font-size: 12px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.trademark{
+    color: rgba(188, 184, 184, 0.6);
+    font-size: 10px;
+    font-weight: 300;
+    padding-bottom: 30px;
 }
