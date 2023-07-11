@@ -24,7 +24,7 @@ span {
 
 /* header section */
 header {
-    height: 100vh;
+    height: 768px;
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     align-items: center;
@@ -185,7 +185,7 @@ header {
     height: 80vh;
     align-items: center;
     justify-content: space-around;
-    padding: 0px 90px;
+    padding: 0px 250px;
 }
 
 .deal-txt {
